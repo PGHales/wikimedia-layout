@@ -1,18 +1,58 @@
+#container {
+	width: 80%%;
+	margin: 0 auto;
+}
+
+#intro {
+	padding-top: 20px;
+}
+
 p {
 	font-family: sans-serif;
-	font-size: 13px;
+	font-size: 1.5em;
 	line-height: 1.5; 
 }
 
-.b {
+a {
+	text-decoration: none;
+	color: darkblue;
+}
+.b, #welcome {
 	font-weight: bold;
 }
 
+#welcome{
+	text-align: right;
+}
 .photo {
+	width: 24%;
 	height:167px;
-	background-size: 45%;
+	padding:10px 0px;
+	display: block;
+	float: left;
+}
 
+#affliate:after {
+	content: '';
+	display: block;
+	clear: both;
+}
 
+/* Footer */
 
+#footer {
+	width: 85%;
+	margin: 10px auto;
+	border-top: 1px solid #AAAAAA;
+	text-align: center;
+}
 
+#footer > div {
+	padding-top: 10px;
+}
+
+#footer li {
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 10px;
 }
